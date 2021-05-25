@@ -1,0 +1,477 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <!-- meta tag for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title of the website--> 
+    <title>My Playlist</title>
+    <!--favicon for website logo -->
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./img/favicon/q1.jpg">
+    <!-- stylesheet linking -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--utility section-->  
+    <link rel="stylesheet" href="./css/utility.css">
+    <!--singleplaylist section-->
+    <link rel="stylesheet" href="./css/SinglePlaylist.css">
+    <!--media query section -->
+    <link rel="stylesheet" href="./css/mediaquery.css">
+
+
+</head>
+ <body class="fadeIn">
+      <!-- Hamburger icon -->
+      <label for="toggle" class="nav__button">
+        <i class="fa fa-bars"></i>
+    </label>
+
+    <input type="checkbox" id="toggle">
+
+    <!-- Mobile navigation -->
+    <nav class="navigation mobile-nav">
+        <div class="search-box">
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+            <input type="search" name="search-item" id="search" placeholder="search">
+            <a href="#">
+                <i class="fas fa-microphone"></i>
+            </a>
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MY MUSIC</a></li>
+            <li><a href="#">UPGRADE</a></li>
+        </ul>
+        <div class="icon-box">
+            <a href="#" class="notification-icon">
+                <i class="fas fa-bell"></i>
+            </a>
+            <a href="#" class="profile-pic">
+                <i class="fas fa-user-tie"></i>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="#" class="icon">
+                <i class="fas fa-music"></i>
+            </a>
+            <a href="#" class="logo-text">
+                <h2>WYNKMUSIC</h2>
+                
+            </a>
+        </div>
+    </nav>
+
+
+    <!--Navbar Start-->
+    <nav class="container navigation">
+        <div class="nav-left">
+   
+           <!--Logo Box-->
+           <div class="logo">
+               <a href="#" class="icon">
+                   <i class="fas fa-music"></i>
+               </a>
+               <a href="#" class="logo-text">
+                <h1>WYNKMUSIC</h1>
+                
+               </a>
+           </div>
+           <a href="#">HOME</a>
+           <a href="#">MY MUSIC</a>
+           <a href="#">UPGRADE</a>
+        </div>
+   
+        <div class="nav-right">
+            <div class="search-box">
+                <a href="#">
+                   <i class="fas fa-search"></i>
+                </a>
+                <input type="search" name="search-item" id="search" placeholder="Search for music you love!">
+                <a href="#">
+                   <i class="fas fa-microphone"></i>
+                </a>
+            </div>
+            <a href="#" class="notification-item">
+               <i class="fas fa-bell"></i>
+            </a>
+            <a href="#" class="profile-pic">
+               <i class="fas fa-user-tie"></i>
+            </a>
+        </div>
+    </nav>
+
+    <!--Main Section-->
+    <main class="container">
+        <section class="left-section">
+            <header class="about fadeIn">
+                <img class="about-img" src="./img/singleplayimg/b1.jpg">
+                <div class="about-description">
+                    <div class="about-description__heading">
+                        <div>
+                            <h3>Twenty One Pilots</h3>
+                            <h6>Latin Pop</h6>
+                        </div>
+                        <h6>4.9M Followers</h6>
+                    </div>
+
+                    <div class="about-content">
+                        <p>
+                            Twenty One Pilots were formed in 2009 by high-school friends Tyler Joseph, Nick Thomas, and Chris Salih. 
+                            The pop trio built an enormous regional following across Ohio and the Midwest, spurred on by constant 
+                            energetic touring, shrewd use of interactive social media, and connecting with fans on a grassroots level.
+                            In 2012, they signed to Atlantic subsidiary Fueled by Ramen, releasing the Three Songs EP in the summer 
+                            of that year and working with Adele producer Greg Wells on Vessel, their debut album for the label.
+                        </p>
+                    </div>
+                    
+                    <div class="about-footer">
+                        <div>
+                            <button>Play All</button>
+                            <h1>65 Tracks | 15 Albums</h1>
+                        </div>
+
+                        <a href="#"><h3>Follow</h3></a>
+                    </div>
+
+                </div>
+
+            </header>
+
+            <!--Playlist Section-->
+            
+            <section class="playlist fadeInLeft">
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">01</h6>
+                        <img src="./img/singleplayimg/m1.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Heathens</a>
+                            <h6>pop</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>3:15</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">02</h6>
+                        <img src="./img/singleplayimg/m2.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Stressed</a>
+                            <h6>rock</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>3:22</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">03</h6>
+                        <img src="./img/singleplayimg/m3.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Chlorine</a>
+                            <h6>chill</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>5:24</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">04</h6>
+                        <img src="./img/singleplayimg/m4.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Caradio</a>
+                            <h6>travel</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>4:27</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">05</h6>
+                        <img src="./img/singleplayimg/m5.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Migraine</a>
+                            <h6>jazz</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>3:59</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">06</h6>
+                        <img src="./img/singleplayimg/m6.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Concern</a>
+                            <h6>love</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>3:40</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">07</h6>
+                        <img src="./img/singleplayimg/m7.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">Turning</a>
+                            <h6>hip hop</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>4:21</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="playlist-card">
+                    <div class="name">
+                        <h6 class="track-num">08</h6>
+                        <img src="./img/singleplayimg/m8.jpg" alt="cover photo">
+                        <div>
+                            <a href="#">PowerMe</a>
+                            <h6>heavy</h6>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <h6>3:26</h6>
+                    </div>
+                    <div class="like">
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fas fa-plus"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        
+        <!--Aside Section-->
+        <aside class="my-playlist fadeInRight">
+
+            <div class="similar-artist">
+                <div class="similar-artist__heading section-heading">
+                    <h2>Similar Artists</h2>
+                    <a href="#">View All</a>
+                </div>
+
+                <div class="similar-artist__queue">
+                    <div class="similar-artist__card">
+                        <img src="./img/singleplayimg/r1.jpg" alt="artist photo">
+                        <div>
+                            <a href="#">Ride</a>
+                            <h6>Pop</h6>
+                        </div>
+
+                        <div class="time">
+                            <h6>3:48</h6>
+                        </div>
+                    </div>
+
+                    <div class="similar-artist__card">
+                        <img src="./img/singleplayimg/r2.jpg" alt="artist photo">
+                        <div>
+                            <a href="#">Cheers</a>
+                            <h6>rock</h6>
+                        </div>
+
+                        <div class="time">
+                            <h6>3:21</h6>
+                        </div>
+                    </div>
+
+                    <div class="similar-artist__card">
+                        <img src="./img/singleplayimg/r3.jpg" alt="artist photo">
+                        <div>
+                            <a href="#">Flags</a>
+                            <h6>jazz</h6>
+                        </div>
+
+                        <div class="time">
+                            <h6>3:15</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="recently-play">
+                <div class="section-heading">
+                    <h2>Recently Played</h2>
+                    <a href="#">View All</a>
+                </div>
+
+
+                <div class="queue">
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">01</span>
+                            <img src="./img/singleplayimg/g1.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">Perfect</a>
+                                <h5>Deluxe</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">02</span>
+                            <img src="./img/singleplayimg/g2.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">Machika</a>
+                                <h5>Rose</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">03</span>
+                            <img src="./img/singleplayimg/g3.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">Dale</a>
+                                <h5>Fume</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">04</span>
+                            <img src="./img/singleplayimg/g4.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">Solo</a>
+                                <h5>Love</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">05</span>
+                            <img src="./img/singleplayimg/g5.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">So Extra</a>
+                                <h5>pop</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+                    <div class="queue-card">
+                        <div class="queue-content">
+                            <span class="seq-num">06</span>
+                            <img src="./img/singleplayimg/g6.jpg" alt="your playlist image">
+                            <div>
+                                <a href="#">MIC Drop</a>
+                                <h5>rock</h5>
+                            </div>
+                        </div>
+                        <a href="#">
+                            <i class="far fa-heart"></i>
+                        </a>
+                    </div>
+
+            
+                </div>
+            </div>
+
+        </aside>
+
+
+    </main>
+     
+
+
+ </body>
+ </html>

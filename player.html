@@ -1,0 +1,601 @@
+<!-- Home Screen For Music Player -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon for website logo -->
+    <link rel="icon" type="image/jpg" sizes="32x32" href="./img/favicon/q1.jpg">
+    <!--title of the website--> 
+    <title>WYNKMUSIC</title>
+     <!-- stylesheet linking -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--utility section-->    
+    <link rel="stylesheet" href="./css/utility.css">
+    <!--style section-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--media query section-->
+    <link rel="stylesheet" href="./css/mediaquery.css">
+</head>
+<body class="fadeIn">
+
+     <!-- Hamburger icon -->
+     <label for="toggle" class="nav__button">
+        <i class="fa fa-bars"></i>
+    </label>
+
+    <input type="checkbox" id="toggle">
+
+    <!-- Mobile navigation -->
+    <nav class="navigation mobile-nav">
+        <div class="search-box">
+            <a href="#">
+                <i class="fas fa-search"></i>
+            </a>
+            <input type="search" name="search-item" id="search" placeholder="search">
+            <a href="#">
+                <i class="fas fa-microphone"></i>
+            </a>
+        </div>
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MY MUSIC</a></li>
+            <li><a href="#">UPGRADE</a></li>
+        </ul>
+        <div class="icon-box">
+            <a href="#" class="notification-icon">
+                <i class="fas fa-bell"></i>
+            </a>
+            <a href="#" class="profile-pic">
+                <i class="fas fa-user-tie"></i>
+            </a>
+        </div>
+        <div class="logo">
+            <a href="#" class="icon">
+                <i class="fas fa-music"></i>
+            </a>
+            <a href="#" class="logo-text">
+                <h1>WYNKMUSIC</h1>
+            </a>
+        </div>
+    </nav>
+
+    
+
+    <!--Navbar Start-->
+    <nav class="container navigation">
+     <div class="nav-left">
+
+        <!--Logo Box-->
+        <div class="logo">
+            <a href="#" class="icon">
+                <i class="fas fa-music"></i>
+            </a>
+            <a href="#" class="logo-text">
+                <h1>WYNKMUSIC</h1>
+               
+            </a>
+        </div>
+        <a href="#">HOME</a>
+        <a href="#">MY MUSIC</a>
+        <a href="#">UPGRADE</a>
+     </div>
+
+     <div class="nav-right">
+         <div class="search-box">
+             <a href="#">
+                <i class="fas fa-search"></i>
+             </a>
+             <input type="search" name="search-item" id="search" placeholder="Search for music you love!">
+             <a href="#">
+                <i class="fas fa-microphone"></i>
+             </a>
+         </div>
+         <a href="#" class="notification-item">
+            <i class="fas fa-bell"></i>
+         </a>
+         <a href="#" class="profile-pic">
+            <i class="fas fa-user-tie"></i>
+         </a>
+     </div>
+    </nav>
+
+    <!--Main Content Of Website-->
+    <main class="container">
+
+        <!--Left Side Section-->
+        <section class="left-section">
+
+            <!--Header-->
+            <header class="img-container fadeInDown">
+                <div class="img-slider">
+                    <div class="img-box">
+                        <img src="./img/covers/cover-1.jpg" alt="cover image">
+                    </div>
+
+                    <div class="img-box">
+                        <img src="./img/covers/cover-2.jpg" alt="cover image">
+                    </div>
+
+                    <div class="img-box">
+                        <img src="./img/covers/cover-3.jpg" alt="cover image">
+                    </div>
+                </div>
+            </header>
+
+
+            <!--Section Latest releases-->
+            <section class="latest-release fadeInLeft">
+                <h2 class="heading">Latest Release</h2>
+
+                <!--Container-->
+                <div class="latest-release__songs">
+                    <div class="song-card">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./img/latest/z1.jpg" alt="latest song image">
+                            </div>
+                            
+                            <div class="content">
+                                <a href="#">
+                                    <h6>Cry Over Boys</h6>
+                                </a>
+                                <span>Dec 18, 2020</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <span>2:50</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+
+                    <div class="song-card">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./img/latest/z2.jpeg" alt="latest song image">
+                            </div>
+                            
+                            <div class="content">
+                                <a href="#">
+                                    <h6>Bubble Gum</h6>
+                                </a>
+                                <span>Nov 12, 2020</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <span>2:50</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+                    
+                    <div class="song-card">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./img/latest/z3.jpg" alt="latest song image">
+                            </div>
+                            
+                            <div class="content">
+                                <a href="#">
+                                    <h6>Roll Up</h6>
+                                </a>
+                                <span>Jan 22, 2021</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <span>3:15</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+
+
+
+                    <div class="song-card">
+                        <div class="left">
+                            <div class="img">
+                                <img src="./img/latest/z4.jpg" alt="latest song image">
+                            </div>
+                            
+                            <div class="content">
+                                <a href="#">
+                                    <h6>Take It Off</h6>
+                                </a>
+                                <span>Dec 25, 2020</span>
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <span>4:26</span>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+                </div>
+            </section>
+
+
+            <!--popular artist section-->
+            <h2 class="heading">Popular-Artist</h2>
+            <section class="popular-artist">
+                <div class="artist-container">
+                    
+                    <!--Artist card-->
+                    <div class="artist">
+                        <div class="img-1 bg-img">
+                            <a href="SinglePlaylist.html" class="slide-up">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                        </div>
+                        <h6>Arijit Singh</h6>
+                    </div>
+
+                    <div class="artist">
+                        <div class="img-2 bg-img">
+                            <a href="SinglePlaylist.html" class="slide-up">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                        </div>
+                        <h6>Jubin Nautiyal</h6>
+                    </div>
+
+                    <div class="artist">
+                        <div class="img-3 bg-img">
+                            <a href="SinglePlaylist.html" class="slide-up">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                        </div>
+                        <h6>Justin Bieber</h6>
+                    </div>
+
+                    <div class="artist">
+                        <div class="img-4 bg-img">
+                            <a href="SinglePlaylist.html" class="slide-up">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                        </div>
+                        <h6>Shawn Mendes</h6>
+                    </div>
+
+                    <div class="artist">
+                        <div class="img-5 bg-img">
+                            <a href="SinglePlaylist.html" class="slide-up">
+                                <i class="fas fa-play-circle"></i>
+                            </a>
+                        </div>
+                        <h6>Taylor Swift</h6>
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <!--Section Music Type-->
+            <section class="music-type">
+
+                <!--card container-->
+                <div class="music-type__card-container">
+                    <div class="main-container">
+                        <div class="music-type__card bg-1">
+                            <div class="music-type__card--text-box">
+                                <a href="#">Hop</a>
+                            </div>
+                        </div>
+
+                        <div class="music-type__card bg-2">
+                            <div class="music-type__card--text-box">
+                                <a href="#">Rock</a>
+                            </div>
+                        </div>
+
+                        <div class="music-type__card bg-3">
+                            <div class="music-type__card--text-box">
+                                <a href="#">Work</a>
+                            </div>
+                        </div>
+
+                        <div class="music-type__card bg-4">
+                            <div class="music-type__card--text-box">
+                                <a href="#">Love</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Section Latest hindi songs-->
+
+            <h2 class="heading">Latest Hindi songs</h2>
+            <section class="latest-songs">
+                <div class="latest-songs__container">
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/g1.jpeg">
+                        </div>
+                        <a href="#">Dil Chahete Ho</a>
+    
+                    </div>
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/g2.jpg">
+                        </div>
+                        <a href="#">Gale Lagana Hai</a>
+                        
+                    </div>
+
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/g3.jpg">
+                        </div>
+                        <a href="#">Shona Shona</a>
+                        
+                    </div>
+
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/g4.jpg">
+                        </div>
+                        <a href="#">Ishq Safarnaama</a>
+                       
+                    </div>
+                </div>
+            </section>
+
+
+            <!--Section Latest English Songs-->
+
+            <h2 class="heading">Latest English Songs</h2>
+            <section class="latest-songs">
+                <div class="latest-songs__container">
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/h1.jpg" alt="latest-english-song">
+                        </div>
+                        <a href="#">Happier</a>
+                        
+                    </div>
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/h2.jpg" alt="latest-english-song">
+                        </div>
+                        <a href="#">I Don't Care</a>
+                        
+                    </div>
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/h3.jpg" alt="latest-english-song">
+                        </div>
+                        <a href="#">Lego  House</a>
+                        
+                    </div>
+
+                    <div class="latest-card">
+                        <div class="latest-card__img">
+                            <img src="./img/latest/h4.jpg" alt="latest-english-song">
+                        </div>
+                        <a href="#">Heading Home</a>
+                        
+                    </div>
+                </div>
+            </section>
+        </section>
+
+
+        <!--Right Side Section-->
+        <aside class="my-playlist fadeInRight">
+
+            <div class="title">
+                <h2>Queue</h2>
+                <div>
+                    <a href="#">Queue</a>
+                    <i class="fas fa-angle-down"></i>
+                </div>
+            </div>
+
+            <div class="queue">
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">01</span>
+                        <img src="./img/queue/t1.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">CHILL OUT</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">02</span>
+                        <img src="./img/queue/t2.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">MEMORIES</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">03</span>
+                        <img src="./img/queue/t3.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">AFTERGLOW</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">04</span>
+                        <img src="./img/queue/t4.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">I NEED YOU</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">05</span>
+                        <img src="./img/queue/t5.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">GO GO</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">06</span>
+                        <img src="./img/queue/t6.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">LONELY</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">07</span>
+                        <img src="./img/queue/t7.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">HOLY</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+                <div class="queue-card">
+                    <div class="queue-content">
+                        <span class="seq-num">08</span>
+                        <img src="./img/queue/t8.jpg" alt="your playlist image">
+                        <div>
+                            <a href="#">YUMMY</a>
+                        </div>
+                    </div>
+                    <a href="#">
+                        <i class="far fa-heart"></i>
+                    </a>
+                </div>
+
+
+            </div>
+        </aside>
+    </main>
+
+
+    <!--bottom play bar-->
+    <footer class="playbar" id="bar">
+        <!-- top play bar for responsive screen -->
+        <div class="bar-top-player">
+            <div class="inner-bar"></div>
+        </div>
+        <!-- about the song -->
+        <div class="song-details-container">
+
+            <div class="song-image">
+                <img src="./img/queue/t1.jpg" alt="song image">
+            </div>
+            <div class="song-details">
+                <div class="song-name">
+                    <p>Chill Out</p>
+                </div>
+                
+            </div>
+
+        </div>
+
+       
+        <!-- play, pause rewind, other controls for song -->
+        <div class="song-player-controls">
+            <div class="control-buttons">
+                <ul class="horizontal-control-list">
+                    <li><i class="fas fa-random"></i></li>
+                    <li><i class="fas fa-step-backward"></i></li>
+                    <li>
+                        <div class="play-pause">
+                            <input type="checkbox" value="" id="playPauseCheckbox" name="playPauseCheckbox">
+                            <label for="playPauseCheckbox"></label>
+                        </div>
+                    </li>
+                    <li><i class="fas fa-step-forward"></i></li>
+                    <li><i class="fas fa-redo-alt"></i></li>
+                </ul>
+            </div>
+            <!-- song's progress bar -->
+            <div class="progress-bar">
+                <span>1:30</span>
+                <div class="outer-bar">
+                    <div class="inner-bar"></div>
+                </div>
+                <span>4:00</span>
+            </div>
+        </div>
+
+        <!-- volume and other controllers -->
+        <div class="volume-bar-controls">
+            <ul class="horizontal-control-list">
+                <li><i class="fas fa-list-ul"></i></li>
+                <li><i class="fab fa-bluetooth-b"></i></li>
+                <li><i class="fas fa-volume-up"></i></li>
+                <li>
+                    <!-- volume bar for song -->
+                    <div class="progress-bar">
+                        <div class="outer-bar">
+                            <div class="inner-bar"></div>
+                        </div>
+                    </div>
+
+                </li>
+                <li><i class="fas fa-expand-arrows-alt"></i></li>
+            </ul>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html>
